@@ -1,0 +1,104 @@
+cd ~/aji-ilham-sniper-entry
+cat > index.html <<'HTML'
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aji Ilham Sniper Entry</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Poppins", sans-serif;
+      background: radial-gradient(circle at top, #0a0a0a, #111);
+      color: #f5f5f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      padding: 1rem 2rem;
+      text-align: center;
+      background: rgba(255,255,255,0.03);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(8px);
+    }
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      color: #00ff99;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      max-width: 720px;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    h2 {
+      color: #00ff99;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: #ccc;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: #00ff99;
+      color: #111;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #00cc77;
+    }
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      color: #777;
+      font-size: 0.9rem;
+      background: rgba(255,255,255,0.03);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aji Ilham Sniper Entry</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Analisis SNR XAUUSD</h2>
+      <p>Website ini akan membantu Anda memahami area Support & Resistance (SNR) pada chart XAUUSD secara otomatis dan akurat.</p>
+      <a class="btn" href="#upload">Mulai Analisis</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Aji Ilham Sniper Entry. All rights reserved.
+  </footer>
+</body>
+</html>
+HTML
